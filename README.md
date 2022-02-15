@@ -15,13 +15,13 @@ Be the most accessible it can be out of the box and the fastest way to productio
 Install
 
 ```sh
-npm i windmill-react-ui-kit
+npm i @roketid/windmill-react-ui
 ```
 
 Inside `tailwind.config.js`
 
 ```js
-const windmill = require('windmill-react-ui-kit/config')
+const windmill = require('@roketid/windmill-react-ui/config')
 module.exports = windmill({
   purge: [],
   theme: {
@@ -39,7 +39,7 @@ Then place `Windmill` at the root of your project (the order doesn't matter, as 
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
-import { Windmill } from 'windmill-react-ui-kit'
+import { Windmill } from '@roketid/windmill-react-ui'
 
 ReactDOM.render(
   <Windmill>
@@ -52,7 +52,7 @@ ReactDOM.render(
 Use components inside your project
 
 ```js
-import { Button } from 'windmill-react-ui-kit'
+import { Button } from '@roketid/windmill-react-ui'
 
 function App() {
   return <Button>Hi there!</Button>

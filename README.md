@@ -3,11 +3,13 @@
 The component library for fast and accessible development of gorgeous interfaces.
 
 Projects using it: [Windmill Dashboard React](https://github.com/estevanmaito/windmill-dashboard-react)
+Projects using it: [Windmill Dashboard NextJS](https://github.com/roketid/windmill-dashboard-nextjs-typescript)
 
 ## Mission
 
 Be the most accessible it can be out of the box and the fastest way to production.
 
+[Go to storybook library, powered by chromatic](https://www.chromatic.com/library?appId=620b9e3a0f4b10003adaf0c3)
 [Go to docs to see complete, live examples](https://windmillui.com/react-ui)
 
 ## 🚀 Usage
@@ -23,7 +25,7 @@ Inside `tailwind.config.js`
 ```js
 const windmill = require('@roketid/windmill-react-ui/config')
 module.exports = windmill({
-  purge: [],
+  content: [],
   theme: {
     extend: {},
   },

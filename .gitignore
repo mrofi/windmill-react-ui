@@ -3,5 +3,7 @@ coverage
 dist
 dev
 style/output.css
+storybook-static/
+build-storybook.log
 lib
 .env
